@@ -1,5 +1,5 @@
 {% set name = "mailchecker" %}
-{% set version = "5.0.2" %}
+{% set version = "5.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mailchecker-{{ version }}.tar.gz
-  sha256: 17a4f12f25dff956db62d9926eeb8c1fe100ee6d92d65d46e4ef0f0b56f50b2f
+  sha256: 0fcc725c150345a5cb7a6a5c27b1bf61b7bb03716201a67c9209b88e02a19122
 
 build:
   number: 0
